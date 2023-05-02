@@ -116,5 +116,28 @@ a {
     border-radius: 10px;
 }
 
+.lower-middle {
+    background-color: #E5E7Eb;
+}
 
+.quote {
+    max-width: 830px;
+    margin: auto;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
 
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+.quote-author {
+    align-self: end;
+    margin-right: 70px;
+    font-weight: bolder;
+    margin-top: 0;
+}
