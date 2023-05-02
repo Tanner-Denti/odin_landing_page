@@ -86,7 +86,35 @@ a {
     object-position: 50% 50%; 
 }
 
+.upper-middle {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    max-width: 1500px;
+    margin: 0 auto;
+}
 
+.header-mid {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.images ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+.images ul li {
+    text-align: center;
+    max-width: 200px;
+    padding: 15px 20px;
+}
+
+.img-list {
+    border-radius: 10px;
+}
 
 
 
