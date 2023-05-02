@@ -1,0 +1,17 @@
+.logo img{
+    max-width: 100px;
+}
+
+.upper-img {
+    max-width: 400px;
+}
+
+.img-list {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+    object-position: 50% 50%; 
+}
+
+
+
