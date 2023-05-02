@@ -92,6 +92,7 @@ a {
     align-items: center;
     max-width: 1500px;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .header-mid {
@@ -123,7 +124,9 @@ a {
 .quote {
     max-width: 830px;
     margin: auto;
-    padding: 100px;
+    padding: 70px 120px;
+    color: #1F2937;
+    margin-bottom: 0;
     display: flex;
     flex-direction: column;
 }
@@ -141,3 +144,48 @@ a {
     font-weight: bolder;
     margin-top: 0;
 }
+
+.action {
+    margin: 90px auto;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    max-width: 1250px;
+    padding: 25px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call {
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.call-message {
+    margin-top: 3px;
+    color: #E5E7Eb;
+    font-size: 16px;
+}
+
+.action button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-radius: 5px;
+    height: 30px;
+    width: 110px;
+    align-self: center;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7Eb;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
